@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_video"
+        android:title="Video Lectures"
+        android:icon="@drawable/ic_video"/>
+
+    <item
+        android:id="@+id/navigation_ebook"
+        android:title="eBooks"
+        android:icon="@drawable/ic_ebook"/>
+
+    <item
+        android:id="@+id/navigation_theme"
+        android:title="Themes"
+        android:icon="@drawable/ic_theme"/>
+
+    <item
+        android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/ic_website"/>
+
+    <item
+        android:id="@+id/navigation_rate"
+        android:title="Rate us"
+        android:icon="@drawable/ic_review"/>
+
+    <item
+        android:id="@+id/navigation_notice"
+        android:title="VTU Circular"
+        android:icon="@drawable/ic_newsfeed"/>
+
+    <item
+        android:id="@+id/navigation_developer"
+        android:title="Developer"
+        android:icon="@drawable/ic_developer"/>
+
+
+</menu>

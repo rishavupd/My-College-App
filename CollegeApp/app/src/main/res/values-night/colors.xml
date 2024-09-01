@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColor2">#000</color>
+    <color name="titleColor">#ffffff</color>
+    <color name="colorPrimaryDark">#3f51b5</color>
+    <color name="searchWhite">#000</color>
+    <color name="searchBlack">#fff</color>
+
+</resources>

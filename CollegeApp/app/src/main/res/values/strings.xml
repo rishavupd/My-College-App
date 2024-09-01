@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BTI</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/robotobold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/robotolight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/robotoregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="iso">(An ISO 9001:2015 Certified Institute) Approved by AICTE, Affiliated to VTU, Recognised by GoK</string>
+    <string name="address">Off Sarjapur Road, Near Wipro Corporate Office, Chikkanayakanahalli Dinne Bangalore-35</string>
+    <string name="about_college">BTI founded by Aditya Educational Trust (Regd) in the year 2010 is conceived to stand as an institution with a difference. The campus is spread over 17 acres of land with lush green environment away from the bubbling city atmosphere</string>
+
+    <string name="vision">Vision: To evolve as a centre of excellence in academics, research and development to impact technological advancement to the society</string>
+    <string name="mission">Mission: To provide the young prospective engineers with an environment conductive for higher education and research. Our motto is to mould them as responsible citizens with an attitude to use their knowledge and scientific temper to uplift the downtrodden and improve the quality of life of fellow human beings.</string>
+
+    <string-array name="theme">
+
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+</resources>

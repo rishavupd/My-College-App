@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+      <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:paddingTop="75dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="BTI"
+                        android:textColor="#fff"
+                        android:textSize="40sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_horizontal"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="One of the best engineering colleges in Bangalore | BTI"
+                        android:textColor="#fff"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="4dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_gravity="center"
+                        android:background="@color/grey"/>
+
+
+                </LinearLayout>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginTop="-60dp"
+                    android:layout_marginHorizontal="24dp"
+                    android:layout_marginBottom="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ADMIN"
+                            android:id="@+id/admin"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginHorizontal="16dp"/>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="USER"
+                            android:id="@+id/user"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginHorizontal="16dp"/>
+
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

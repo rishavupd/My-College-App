@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/text_margin"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_ebook"/>
+
+        <TextView
+            android:id="@+id/ebookName"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="An easy PDF of Data Structure Using C made by lecutrere in Bangalore Technological Institute"
+            android:textSize="16sp"
+            android:layout_marginEnd="50dp"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/robotoregular"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp" />
+
+        <ImageView
+            android:id="@+id/ebookDownload"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/download"
+            android:layout_marginLeft="-35dp"/>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
